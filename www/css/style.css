@@ -82,6 +82,14 @@
         background-color: rgb(64, 64, 226); 
         color:rgba(245, 235, 50, 0.717);
     }
+
+    #btnE {
+        font-size: 20px;
+        position:absolute; top:440px; left:30%; width:25%; height:60px; 
+        background-color: rgb(247, 53, 53); 
+        color:rgba(245, 245, 239, 0.717);
+    }
+    
     
     
     
