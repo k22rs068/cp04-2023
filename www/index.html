@@ -46,6 +46,10 @@
         $('#btnE').click(function(e) {
             btnEClick(e);
         });
+
+        $('#btnF').click(function(e) {
+            btnFClick(e);
+        });
         init();
     });
     
@@ -170,6 +174,7 @@
         $('#btnC').prop('disabled', false);
         $('#btnD').prop('disabled', false);
         $('#btnE').prop('disabled', false);
+        $('#btnF').prop('disabled', false);
         
     }
 
@@ -227,6 +232,8 @@
           $("#time").html("経過時間： 0");
           $("#remain").html("残り時間： " + period);
     }
+
+    
     
  
     // 繰り返し実行する処理
@@ -262,6 +269,7 @@
     <button id="btnC">Set</button> 
     <button id="btnD">Set(50)</button> 
     <button id="btnE">Set(300)</button> 
+    <button id="btnF">color</button> 
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
