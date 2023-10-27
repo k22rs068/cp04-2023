@@ -256,7 +256,7 @@
         if(active){
           var time = parseInt((new Date() - startTime)/1000);
           var rest = period - time;
-          if(rest < 10 &&rest > 0){
+          if(rest <= 10 &&rest > 0){
               $("body").css("background-color","yellow");
           }
           $("#time").html("経過時間： " + time);
